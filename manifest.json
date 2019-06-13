@@ -1,0 +1,27 @@
+{
+  "name": "Symfony Dump Expander",
+  "version": "0.1",
+  "description": "Expands Symfony VarDumper",
+  "icons": {
+    "16": "icon_16.png",
+    "32": "icon_32.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "Expand dump"
+  },
+  "manifest_version": 2,
+  "homepage_url": "https://github.com/dmaksimov"
+}
