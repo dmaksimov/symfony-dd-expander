@@ -1,5 +1,5 @@
 {
-  "name": "Symfony Dump Expander",
+  "name": "Symfony Var Dump Expander",
   "version": "0.1",
   "description": "Expands Symfony VarDumper",
   "icons": {
@@ -14,14 +14,10 @@
     ],
     "persistent": true
   },
-  "permissions": [
-    "https://*/*",
-    "http://*/*",
-    "tabs"
-  ],
+  "permissions": ["activeTab"],
   "browser_action": {
     "default_title": "Expand dump"
   },
-  "manifest_version": 1,
+  "manifest_version": 2,
   "homepage_url": "https://github.com/dmaksimov"
 }
